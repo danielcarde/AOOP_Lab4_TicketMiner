@@ -1,0 +1,9 @@
+========================================
+    TICKETMINER RECEIPT SUMMARY
+========================================
+
+Customer: Goofy Disney
+Total Purchases: 0
+
+No purchases found.
+========================================

@@ -1,0 +1,9 @@
+========================================
+    TICKETMINER RECEIPT SUMMARY
+========================================
+
+Customer: Donald Duck
+Total Purchases: 0
+
+No purchases found.
+========================================

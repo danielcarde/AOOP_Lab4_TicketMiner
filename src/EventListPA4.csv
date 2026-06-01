@@ -1,0 +1,121 @@
+﻿Capacity,Gold Pct,General Admission Price,Gold Price,Bronze Price,Reserved Extra Pct,General Admission Pct,Event Type,Silver Price,VIP Pct,Time,Fireworks Planned,Event ID,Name,VIP Price,Cost,Date,Fireworks Cost,Venue Name,Venue Type,Bronze Pct,Pct Seats Unavailable,Silver Pct
+58000,10,15.00,30.00,19.50,5,45,Sport,22.50,5,7:05 PM,Yes,1,UTEP Football 1,36.00,681500,9/4/2025,17400,Sun Bowl Stadium,Stadium,20,0,15
+58000,10,15.00,30.00,19.50,5,45,Sport,22.50,5,7:05 PM,Yes,2,UTEP Football 2,36.00,681500,9/11/2025,17400,Sun Bowl Stadium,Stadium,20,0,15
+58000,10,15.00,27.00,19.50,5,45,Sport,22.50,5,7:05 PM,No,3,UTEP Football 3,36.00,681500,9/18/2025,,Sun Bowl Stadium,Stadium,20,0,15
+58000,10,15.00,27.00,19.50,5,45,Sport,22.50,5,7:05 PM,Yes,4,UTEP Football 4,36.00,681500,9/25/2025,17400,Sun Bowl Stadium,Stadium,20,0,15
+58000,10,15.00,27.00,19.50,5,45,Sport,22.50,5,7:05 PM,Yes,5,UTEP Football 5,36.00,681500,10/2/2025,17400,Sun Bowl Stadium,Stadium,20,0,15
+58000,10,15.00,27.00,19.50,5,45,Sport,22.50,5,7:05 PM,Yes,6,UTEP Football 6,36.00,681500,10/9/2025,17400,Sun Bowl Stadium,Stadium,20,0,15
+58000,10,15.00,27.00,19.50,5,45,Sport,22.50,5,7:05 PM,Yes,7,UTEP Football 7,36.00,681500,10/16/2025,17400,Sun Bowl Stadium,Stadium,20,0,15
+58000,10,16.00,28.80,20.80,5,45,Sport,24.00,5,7:05 PM,No,8,UTEP Football 8,38.40,681500,10/23/2025,,Sun Bowl Stadium,Stadium,20,0,15
+58000,10,16.00,28.80,20.80,5,45,Sport,24.00,5,7:05 PM,No,9,UTEP Football 9,40.00,681500,10/30/2025,,Sun Bowl Stadium,Stadium,20,0,15
+58000,10,16.00,28.80,20.80,5,45,Sport,24.00,5,7:05 PM,No,10,UTEP Football 10,40.00,681500,11/6/2025,,Sun Bowl Stadium,Stadium,20,0,15
+58000,10,16.00,28.80,20.80,5,45,Sport,24.00,5,7:05 PM,Yes,11,UTEP Football 11,40.00,681500,11/13/2025,18560,Sun Bowl Stadium,Stadium,20,0,15
+58000,10,16.00,28.80,20.80,5,45,Sport,24.00,5,7:05 PM,Yes,12,UTEP Football 12,40.00,681500,11/20/2025,18560,Sun Bowl Stadium,Stadium,20,0,15
+58000,10,18.00,32.40,23.40,5,45,Sport,27.00,5,7:05 PM,Yes,13,UTEP Football 13,45.00,681500,11/27/2025,20880,Sun Bowl Stadium,Stadium,20,0,15
+12800,10,15.00,27.00,19.50,5,45,Sport,22.50,5,6:30 PM,,14,UTEP Basketball 1,37.50,150400,11/20/2025,,Don Haskins Center,Arena,20,0,15
+12800,10,17.00,30.60,22.10,5,45,Sport,25.50,5,7:15 PM,,15,UTEP Basketball 2,42.50,150400,11/22/2025,,Don Haskins Center,Arena,20,0,15
+12800,10,15.00,27.00,19.50,5,45,Sport,22.50,5,6:30 PM,,16,UTEP Basketball 3,37.50,150400,11/27/2025,,Don Haskins Center,Arena,20,0,15
+12800,10,17.00,30.60,22.10,5,45,Sport,25.50,5,7:15 PM,,17,UTEP Basketball 4,42.50,150400,11/29/2025,,Don Haskins Center,Arena,20,0,15
+12800,10,15.00,27.00,19.50,5,45,Sport,22.50,5,6:30 PM,,18,UTEP Basketball 5,37.50,150400,12/4/2025,,Don Haskins Center,Arena,20,0,15
+12800,10,17.00,30.60,22.10,5,45,Sport,25.50,5,7:15 PM,,19,UTEP Basketball 6,42.50,150400,12/6/2025,,Don Haskins Center,Arena,20,0,15
+12800,10,15.00,27.00,19.50,5,45,Sport,22.50,5,6:30 PM,,20,UTEP Basketball 7,37.50,150400,12/11/2025,,Don Haskins Center,Arena,20,0,15
+12800,10,17.00,30.60,22.10,5,45,Sport,25.50,5,7:15 PM,,21,UTEP Basketball 8,42.50,150400,12/13/2025,,Don Haskins Center,Arena,20,0,15
+12800,10,15.00,27.00,19.50,5,45,Sport,22.50,5,6:30 PM,,22,UTEP Basketball 9,37.50,150400,12/18/2025,,Don Haskins Center,Arena,20,0,15
+12800,10,17.00,30.60,22.10,5,45,Sport,25.50,5,7:15 PM,,23,UTEP Basketball 10,42.50,150400,12/20/2025,,Don Haskins Center,Arena,20,0,15
+12800,10,15.00,27.00,19.50,5,45,Sport,22.50,5,6:30 PM,,24,UTEP Basketball 11,37.50,150400,12/25/2025,,Don Haskins Center,Arena,20,0,15
+12800,10,17.00,30.60,22.10,5,45,Sport,25.50,5,7:15 PM,,25,UTEP Basketball 12,42.50,150400,12/27/2025,,Don Haskins Center,Arena,20,0,15
+12800,10,15.00,27.00,19.50,5,45,Sport,22.50,5,6:30 PM,,26,UTEP Basketball 13,37.50,150400,1/1/2026,,Don Haskins Center,Arena,20,0,15
+12800,10,17.00,30.60,22.10,5,45,Sport,25.50,5,7:15 PM,,27,UTEP Basketball 14,42.50,150400,1/3/2026,,Don Haskins Center,Arena,20,0,15
+12800,10,15.00,27.00,19.50,5,45,Sport,22.50,5,6:30 PM,,28,UTEP Basketball 15,37.50,150400,1/8/2026,,Don Haskins Center,Arena,20,0,15
+12800,10,17.00,30.60,22.10,5,45,Sport,25.50,5,7:15 PM,,29,UTEP Basketball 16,42.50,150400,1/10/2026,,Don Haskins Center,Arena,20,0,15
+12800,10,15.00,27.00,19.50,5,45,Sport,22.50,5,6:30 PM,,30,UTEP Basketball 17,37.50,150400,1/15/2026,,Don Haskins Center,Arena,20,0,15
+12800,10,17.00,30.60,22.10,5,45,Sport,25.50,5,7:15 PM,,31,UTEP Basketball 18,42.50,150400,1/17/2026,,Don Haskins Center,Arena,20,0,15
+12800,10,15.00,27.00,19.50,5,45,Sport,22.50,5,6:30 PM,,32,UTEP Basketball 19,37.50,150400,1/22/2026,,Don Haskins Center,Arena,20,0,15
+12800,10,17.00,30.60,22.10,5,45,Sport,25.50,5,7:15 PM,,33,UTEP Basketball 20,42.50,150400,1/24/2026,,Don Haskins Center,Arena,20,0,15
+12800,10,15.00,27.00,19.50,5,45,Sport,22.50,5,6:30 PM,,34,UTEP Basketball 21,37.50,150400,1/29/2026,,Don Haskins Center,Arena,20,0,15
+12800,10,17.00,30.60,22.10,5,45,Sport,25.50,5,7:15 PM,,35,UTEP Basketball 22,42.50,150400,1/31/2026,,Don Haskins Center,Arena,20,0,15
+12800,10,15.00,27.00,19.50,5,45,Sport,22.50,5,6:30 PM,,36,UTEP Basketball 23,37.50,150400,2/5/2026,,Don Haskins Center,Arena,20,0,15
+12800,10,17.00,30.60,22.10,5,45,Sport,25.50,5,7:15 PM,,37,UTEP Basketball 24,42.50,150400,2/7/2026,,Don Haskins Center,Arena,20,0,15
+12800,10,15.00,27.00,19.50,5,45,Sport,22.50,5,6:30 PM,,38,UTEP Basketball 25,37.50,150400,2/12/2026,,Don Haskins Center,Arena,20,0,15
+12800,10,17.00,30.60,22.10,5,45,Sport,25.50,5,7:15 PM,,39,UTEP Basketball 26,42.50,150400,2/14/2026,,Don Haskins Center,Arena,20,0,15
+12800,10,15.00,27.00,19.50,5,45,Sport,22.50,5,6:30 PM,,40,UTEP Basketball 27,37.50,150400,2/19/2026,,Don Haskins Center,Arena,20,0,15
+12800,10,17.00,30.60,22.10,5,45,Sport,25.50,5,7:15 PM,,41,UTEP Basketball 28,42.50,150400,2/21/2026,,Don Haskins Center,Arena,20,0,15
+12800,10,15.00,27.00,19.50,5,45,Sport,22.50,5,6:30 PM,,42,UTEP Basketball 29,37.50,150400,2/26/2026,,Don Haskins Center,Arena,20,0,15
+12800,10,17.00,30.60,22.10,5,45,Sport,25.50,5,7:15 PM,,43,UTEP Basketball 30,42.50,150400,2/28/2026,,Don Haskins Center,Arena,20,0,15
+12800,10,15.00,27.00,19.50,5,45,Sport,22.50,5,6:30 PM,,44,UTEP Basketball 31,37.50,150400,3/5/2026,,Don Haskins Center,Arena,20,0,15
+1152,10,6.25,26.88,15.63,5,45,Concert,23.75,5,6:00 PM,,45,UTEP Wind Symphony 1,40.63,13536,11/30/2025,,Magoffin Auditorium,Auditorium,20,0,15
+1152,10,6.25,26.88,15.63,5,45,Concert,23.75,5,6:00 PM,,46,UTEP Wind Symphony 2,41.88,13536,1/9/2026,,Magoffin Auditorium,Auditorium,20,0,15
+1152,10,6.25,26.88,15.63,5,45,Concert,23.75,5,6:00 PM,,47,UTEP Wind Symphony 3,41.88,13536,5/28/2026,,Magoffin Auditorium,Auditorium,20,0,15
+1152,10,6.25,26.88,15.63,5,45,Concert,23.75,5,6:00 PM,,48,UTEP Wind Symphony 4,41.88,13536,5/20/2026,,Magoffin Auditorium,Auditorium,20,0,15
+1152,10,6.25,26.88,15.63,5,45,Concert,23.75,5,6:00 PM,,49,UTEP Wind Symphony 5,41.88,13536,11/14/2025,,Magoffin Auditorium,Auditorium,20,0,15
+1152,10,6.25,26.88,15.63,5,45,Concert,23.75,5,6:00 PM,,50,UTEP Wind Symphony 6,41.88,13536,1/8/2026,,Magoffin Auditorium,Auditorium,20,0,15
+1152,10,6.25,26.88,15.63,5,45,Concert,23.75,5,6:00 PM,,51,UTEP Wind Symphony 7,41.88,13536,4/16/2026,,Magoffin Auditorium,Auditorium,20,0,15
+1152,10,6.25,26.88,15.63,5,45,Concert,23.75,5,6:00 PM,,52,UTEP Wind Symphony 8,41.88,13536,3/3/2026,,Magoffin Auditorium,Auditorium,20,0,15
+1152,10,6.25,26.88,15.63,5,45,Concert,23.75,5,6:00 PM,,53,UTEP Wind Symphony 9,41.88,13536,3/28/2026,,Magoffin Auditorium,Auditorium,20,0,15
+1152,10,6.25,26.88,15.63,5,45,Concert,23.75,5,6:00 PM,,54,UTEP Wind Symphony 10,41.88,13536,4/4/2026,,Magoffin Auditorium,Auditorium,20,0,15
+1152,10,6.25,26.88,15.63,5,45,Concert,23.75,5,6:00 PM,,55,UTEP Wind Symphony 11,41.88,13536,10/4/2025,,Magoffin Auditorium,Auditorium,20,0,15
+1152,10,6.25,26.88,15.63,5,45,Concert,23.75,5,6:00 PM,,56,UTEP Wind Symphony 12,41.88,13536,3/22/2026,,Magoffin Auditorium,Auditorium,20,0,15
+64000,10,830.24,3570.03,2075.60,5,45,Concert,3154.91,5,8:00 PM,No,57,Taylor Swift Live,5396.56,752000,3/23/2026,,Sun Bowl Stadium,Stadium,20,4,15
+14000,10,969.16,4167.39,2422.90,5,45,Concert,3682.81,5,8:30 PM,,58,Drake Live,6299.54,164500,3/28/2026,,Don Haskins Center,Arena,20,8,15
+14000,10,972.26,4180.72,2430.65,5,45,Concert,3694.59,5,8:00 PM,,59,Bad Bunny Live,6319.69,164500,11/11/2025,,Don Haskins Center,Arena,20,8,15
+64000,10,800.22,3440.95,2000.55,5,45,Concert,3040.84,5,8:00 PM,Yes,60,Karol G Live,5201.43,752000,4/29/2026,1024282,Sun Bowl Stadium,Stadium,20,4,15
+14000,10,875.29,3763.75,2188.23,5,45,Concert,3326.10,5,7:15 PM,,61,RBD Live,5689.39,164500,2/18/2026,,Don Haskins Center,Arena,20,8,15
+14000,10,847.34,3643.56,2118.35,5,45,Concert,3219.89,5,8:00 PM,,62,Olivia Rodrigo Live,5507.71,164500,5/26/2026,,Don Haskins Center,Arena,20,8,15
+64000,10,821.80,3533.74,2054.50,5,45,Concert,3122.84,5,8:00 PM,No,63,Shakira Live,5506.06,752000,3/18/2026,,Sun Bowl Stadium,Stadium,20,4,15
+64000,10,913.64,3928.65,2284.10,5,45,Concert,3471.83,5,8:00 PM,No,64,Justin Timberlake Live,6121.39,752000,5/2/2026,,Sun Bowl Stadium,Stadium,20,4,15
+15000,10,500.00,2150.00,1250.00,5,45,Festival,1900.00,5,9:00 AM,No,65,Coachella 1,3350.00,176250,2/8/2026,,San Jacinto Plaza,Open Air,20,0,15
+15000,10,500.00,2150.00,1250.00,5,45,Festival,1900.00,5,9:00 AM,No,66,Coachella 2,3350.00,176250,10/21/2025,,San Jacinto Plaza,Open Air,20,0,15
+15000,10,50.00,215.00,125.00,5,45,Festival,190.00,5,9:00 AM,Yes,67,ACL,335.00,176250,5/2/2026,15000,San Jacinto Plaza,Open Air,20,0,15
+5000,10,0.00,0.00,0.00,5,45,Festival,0.00,5,6:00 PM,No,68,Minerpalooza,0.00,58750,11/1/2025,,Centenial Plaza,Open Air,20,0,15
+12800,10,0.00,0.00,0.00,5,45,Festival,0.00,5,9:00 AM,,69,UTEP Commencement 1,0.00,150400,12/16/2025,,Don Haskins Center,Arena,20,0,15
+12800,10,0.00,0.00,0.00,5,45,Festival,0.00,5,2:00 PM,,70,UTEP Commencement 2,0.00,150400,1/8/2026,,Don Haskins Center,Arena,20,0,15
+12800,10,0.00,0.00,0.00,5,45,Festival,0.00,5,7:00 PM,,71,UTEP Commencement 3,0.00,150400,12/22/2025,,Don Haskins Center,Arena,20,0,15
+12800,10,0.00,0.00,0.00,5,45,Festival,0.00,5,2:00 PM,,72,UTEP Commencement 3,0.00,150400,11/28/2025,,Don Haskins Center,Arena,20,0,15
+150000,10,5,3234,10,5,45,Festival,100,5,9:00 AM,Yes,74,ACL 2,12321,342234,4/13/2026,10000,San Jacinto Plaza,Open Air,20,0,15
+200000,10,15,355,100,5,45,Festival,120,5,8:00 PM,Yes,75,EDC,6343,436587,5/11/2026,10000,San Jacinto Plaza,Open Air,20,0,15
+34234,10,15,543,100,5,45,Festival,120,5,8:00 PM,,76,Lollapallooza,3542,37574,5/11/2026,,San Jacinto Plaza,Open Air,20,0,15
+1152,10,6,25.75,12.5,5,45,Concert,20,5,7:00 PM,,77,UTEP Symphony Spring Concert,38.5,13536,4/10/2026,,Magoffin Auditorium,Auditorium,20,0,15
+64000,10,25,75,42,5,45,Sport,58.75,5,6:30 PM,Yes,78,UTEP Miners vs. NMSU Aggies (Football),98.5,752000,9/12/2026,1248692,Sun Bowl Stadium,Stadium,20,4,15
+14000,10,90.25,415.25,225.5,5,45,Concert,350,5,8:00 PM,,79,Gloria Trevi Live in El Paso,625.75,164500,10/15/2026,,Don Haskins Center,Arena,20,8,15
+10000,10,55,175,95,5,45,Festival,145,5,12:00 PM,Yes,80,UTEP Spring Music Fest,210,120000,4/20/2026,,Glory Field,Field,20,10,15
+1152,10,10,25,15,5,45,Concert,20,5,7:30 PM,,81,UTEP Jazz Ensemble Night,40,13536,3/25/2026,,Magoffin Auditorium,Auditorium,20,0,15
+14000,10,25,85,45,5,45,Sport,65,5,7:00 PM,,82,UTEP Miners vs. North Texas (Basketball),115,164500,2/17/2026,,Don Haskins Center,Arena,20,8,15
+10000,10,40,140,75,5,45,Festival,115,5,2:00 PM,,83,UTEP Fiesta Latina,180,120000,5/5/2026,,Glory Field,Field,20,10,15
+1152,10,8,24,12,5,45,Concert,18,5,6:00 PM,,84,Miner Choir Holiday Gala,32,13536,12/2/2026,,Magoffin Auditorium,Auditorium,20,0,15
+64000,10,30,95,55,5,45,Sport,70,5,7:00 PM,,85,UTEP Miners vs. UTSA (Football),125,752000,10/10/2026,,Sun Bowl Stadium,Stadium,20,4,15
+14000,10,95,455,215,5,45,Concert,325,5,8:00 PM,,86,Los Ángeles Azules en Concierto,685,164500,9/18/2026,,Don Haskins Center,Arena,20,8,15
+8000,10,40,120,70,5,45,Festival,95,5,1:00 PM,,87,Miner Food & Brew Festival,150,96000,8/15/2026,,Foster Stevens Center,Outdoor,20,3,15
+64000,10,850,3650,2100,5,45,Concert,3200,5,8:00 PM,Yes,88,Coldplay: Viva La Vida Tour,5575,752000,8/25/2026,,Sun Bowl Stadium,Stadium,20,4,15
+8000,10,10,35,18,5,45,Sport,25,5,5:00 PM,,89,UTEP Miners Volleyball vs. Rice,45,96000,11/8/2026,,Foster Stevens Center,Arena,20,3,15
+10000,10,25,70,40,5,45,Festival,55,5,10:00 AM,,90,UTEP Cultural Arts Festival,90,120000,3/8/2026,,Glory Field,Field,20,10,15
+14000,10,875,4000,2200,5,45,Concert,3400,5,8:00 PM,Yes,91,Bruno Mars 24K Magic Live,5900,164500,7/12/2026,,Don Haskins Center,Arena,20,8,15
+64000,10,25,85,45,5,45,Sport,60,5,6:30 PM,,92,UTEP Miners vs. SMU (Football),110,752000,9/5/2026,,Sun Bowl Stadium,Stadium,20,4,15
+10000,10,50,140,85,5,45,Festival,115,5,1:00 PM,,93,Miner Fest 2026,175,120000,4/27/2026,,Glory Field,Field,20,10,15
+64000,10,780,3420,1925,5,45,Concert,2950,5,8:30 PM,Yes,94,Post Malone World Tour,5125,752000,6/20/2026,,Sun Bowl Stadium,Stadium,20,4,15
+14000,10,30,95,50,5,45,Sport,70,5,7:00 PM,,95,UTEP Miners vs. Louisiana Tech (Basketball),120,164500,1/28/2026,,Don Haskins Center,Arena,20,8,15
+10000,10,20,65,35,5,45,Festival,50,5,11:00 AM,,96,UTEP Miner Pride Week,80,120000,10/3/2026,,Glory Field,Field,20,10,15
+14000,10,750,3250,1850,5,45,Concert,2800,5,8:00 PM,,97,Grupo Frontera Tour 2026,4900,164500,7/22/2026,,Don Haskins Center,Arena,20,8,15
+64000,10,25,80,40,5,45,Sport,60,5,7:00 PM,,98,UTEP Miners vs. FIU (Football),105,752000,10/31/2026,,Sun Bowl Stadium,Stadium,20,4,15
+64000,10,850,3750,2100,5,45,Concert,3300,5,8:00 PM,Yes,99,Ed Sheeran Mathematics Tour,5800,752000,8/8/2026,,Sun Bowl Stadium,Stadium,20,4,15
+8000,10,35,100,60,5,45,Festival,80,5,12:00 PM,,100,UTEP Miner Cook-Off,125,96000,9/20/2026,,Foster Stevens Center,Outdoor,20,3,15
+14000,10,25,85,45,5,45,Sport,65,5,7:00 PM,,101,UTEP Miners vs. Western Kentucky (Basketball),110,164500,2/14/2026,,Don Haskins Center,Arena,20,8,15
+10000,10,45,110,70,5,45,Festival,90,5,12:00 PM,,102,UTEP Spring Carnival,135,120000,3/14/2026,,Glory Field,Field,20,10,15
+14000,10,775,3450,1900,5,45,Concert,2950,5,8:00 PM,,103,Maná México Lindo Tour,5225,164500,5/30/2026,,Don Haskins Center,Arena,20,8,15
+64000,10,30,95,50,5,45,Sport,70,5,7:00 PM,,104,UTEP Miners vs. Liberty (Football),125,752000,11/21/2026,,Sun Bowl Stadium,Stadium,20,4,15
+8000,10,25,75,40,5,45,Festival,60,5,5:00 PM,,105,Miner Lights Winter Fest,90,96000,12/12/2026,,Foster Stevens Center,Outdoor,20,3,15
+1152,10,8,25,15,5,45,Concert,20,5,6:00 PM,,106,UTEP Alumni Band Reunion Concert,35,13536,10/25/2026,,Magoffin Auditorium,Auditorium,20,0,15
+64000,10,900,3950,2250,5,45,Concert,3450,5,8:00 PM,Yes,107,The Weeknd: After Hours Til Dawn Tour,6100,752000,7/18/2026,,Sun Bowl Stadium,Stadium,20,4,15
+10000,10,45,130,80,5,45,Festival,105,5,2:00 PM,,108,Miner Summer Bash,160,120000,6/15/2026,,Glory Field,Field,20,10,15
+14000,10,30,90,50,5,45,Sport,70,5,7:00 PM,,109,UTEP Miners vs. New Mexico (Basketball),115,164500,12/10/2026,,Don Haskins Center,Arena,20,8,15
+14000,10,750,3250,1850,5,45,Concert,2750,5,8:00 PM,,110,Banda MS Tour 2026,4950,164500,9/4/2026,,Don Haskins Center,Arena,20,8,15
+8000,10,20,60,35,5,45,Festival,50,5,9:00 AM,,111,UTEP Miner Farmers Market,75,96000,4/11/2026,,Foster Stevens Center,Outdoor,20,3,15
+64000,10,800,3500,1950,5,45,Concert,3000,5,8:00 PM,Yes,112,Imagine Dragons Live,5325,752000,8/29/2026,,Sun Bowl Stadium,Stadium,20,4,15
+64000,10,30,95,50,5,45,Sport,70,5,6:30 PM,,113,UTEP Miners vs. UAB (Football),120,752000,9/19/2026,,Sun Bowl Stadium,Stadium,20,4,15
+14000,10,875,3900,2200,5,45,Concert,3400,5,8:00 PM,Yes,114,Shakira World Tour 2026,5785,164500,10/9/2026,,Don Haskins Center,Arena,20,8,15
+8000,10,25,80,45,5,45,Festival,65,5,1:00 PM,,115,UTEP Miner Film Fest,95,96000,11/15/2026,,Foster Stevens Center,Outdoor,20,3,15
+10000,10,10,35,18,5,45,Sport,25,5,6:00 PM,,116,UTEP Miners Women’s Soccer vs. NMSU,45,120000,8/28/2026,,Glory Field,Field,20,10,15
+64000,10,900,4100,2300,5,45,Concert,3500,5,8:00 PM,Yes,117,Metallica M72 World Tour,6250,752000,9/25/2026,,Sun Bowl Stadium,Stadium,20,4,15
+8000,10,30,90,50,5,45,Festival,70,5,10:00 AM,,118,UTEP Tech Expo,110,96000,3/22/2026,,Foster Stevens Center,Outdoor,20,3,15
+14000,10,25,85,45,5,45,Sport,65,5,7:00 PM,,119,UTEP Miners vs. UT Arlington (Basketball),115,164500,1/17/2026,,Don Haskins Center,Arena,20,8,15
+1152,10,8,26,15,5,45,Concert,20,5,6:30 PM,,120,Miner Philharmonic Strings,38,13536,11/21/2026,,Magoffin Auditorium,Auditorium,20,0,15
+8000,10,20,65,35,5,45,Festival,50,5,11:00 AM,,121,Miner Holiday Market,80,96000,12/5/2026,,Foster Stevens Center,Outdoor,20,3,15

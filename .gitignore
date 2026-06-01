@@ -1,0 +1,13 @@
+﻿*.class
+*.log
+bin/
+build/
+target/
+out/
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+ActionLog.txt
+*_Receipt.txt
+*_InvoiceSummary.txt

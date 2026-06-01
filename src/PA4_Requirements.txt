@@ -1,0 +1,45 @@
+2. Make The TicketMiner Company Money
+a. Add service fees to purchases (before any potential discount)
+i. $2.50 convenience fee for every transaction
+ii. 0.5% (.005) service fee for every ticket (e.g., if a single ticket
+costs $100, the service fee will be $0.50)
+iii. 0.75% (.0075) charity fee for every ticket (e.g., if a single ticket
+costs $100, the charity fee will be $0.75)
+iv. Keep track of the amount of money collected for fees in each
+event
+1. Convenience fee
+2. Service Fee
+3. Charity Fee
+b. Discounts should only be applied to the subtotal
+c. Amount charged to customers should be modified
+i. Fees = $2.50 + 0.5% of # of tickets in a transaction + 0.75% of #
+of tickets in a transaction
+ii. Subtotal = Ticket Costs (i.e., considering any potential discounts)
++ fees
+iii. Tax is computed on the subtotal
+iv. Total = Subtotal + tax
+3. Add Customer Functionality
+a. Allow a user to cancel a ticket purchase
+i. The user will be able to select from a list of their ticket purchases
+and select which ticket they want to cancel
+ii. Return money to the customer’s account
+1. Only return ticket costs (do not return
+service/charity/convenience fees)
+2. Profit/Income of event should be adjusted appropriately
+iii. Return seats to the event – which will be available for purchase
+© 2023, The University of Texas at El Paso. 3
+4. Add manager/admin functionality
+a. Compute/print the amount of money gained by The TicketMiner
+Company for any event (manager/admin will select event)
+i. Service Fees
+ii. Convenience fees
+iii. Charity Fees
+iv. Total Fees
+b. Compute/print the amount of money gained by The TicketMiner
+Company for all events
+i. Service Fees
+ii. Convenience fees
+iii. Total Fees
+c. Cancel an event
+i. Allow a manager/admin to cancel an event
+ii. Return all money to the customers (including service fees)
