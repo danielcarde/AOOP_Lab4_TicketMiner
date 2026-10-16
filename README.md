@@ -1,36 +1,27 @@
-﻿# Lab4: TicketMiner GUI and Reporting
+# TicketMiner — PA4
 
-An advanced TicketMiner version with GUI support, ticket inventory, reporting, discounts, receipt generation, and electronic ticket functionality.
+Team Java coursework extending a ticketing system with Swing interfaces, event inventory, membership discounts, fees, cancellation, and reporting. Source comments retain the original contributor credits; this repository does not claim sole authorship of the team implementation.
 
-## Highlights
-Adds a Swing-based GUI.
-Tracks ticket inventory and revenue.
-Supports discount strategies.
-Generates receipts, summaries, and electronic tickets.
-Includes source, library, and UML/design artifacts.
+## Build and test
 
-## Overview
-Lab4 is the most complete TicketMiner iteration in this prepared set. It adds a graphical interface and expands the system with inventory management, reporting, discounts, receipts, and ticket-generation features.
-The project demonstrates larger-scale object-oriented design with multiple interacting services and model classes.
+Requires a JDK (CI uses Java 21). JUnit 4.13.2 and Hamcrest 1.3 are included in `lib`.
 
-## Why This Project
-This project is a strong GitHub portfolio item because it shows growth from file parsing into a full Java application. It demonstrates object-oriented design, GUI work, reporting, and practical ticketing-system workflows.
+```sh
+mkdir -p build
+javac -cp 'lib/*' -d build src/*.java
+java -cp 'build:lib/*' org.junit.runner.JUnitCore CustomerAuthenticationTest CustomerChargeTest CustomerPurchaseTest EventCapacityTest EventRevenueTest EventTest InvoiceTest
+```
 
-## Usage
-Compile: Open the src folder and compile with javac *.java.
-Run: Execute the GUI with java TicketMinerGUI if the classpath is configured for the included libraries.
-Keep lib and UML folders with the project for dependencies and design reference.
+On Windows use `;` instead of `:` in the runtime classpath. The CI workflow discovers all `*Test.java` classes instead of relying on the example list; use the actual test filenames in your checkout. All production sources compile and the current seven test classes pass 69 checks on JDK 25 locally.
 
-## Installation
-Ensure you have the Java Development Kit (JDK) installed on your system.
-Open a terminal in the lab folder before compiling so the program can find any required local text files.
+## Compatibility repairs
 
-## Architecture
-File Structure: The project contains src, lib, and UML folders.
-Components: src contains the application classes, GUI, data store, event model, ticket inventory, discount strategies, receipt generation, and reports. lib stores external jars. UML stores design artifacts.
+The PA4 integration retains the legacy CSV Customer constructor and compatibility accessors, uses the existing static Logger API, and sorts String event IDs with a String comparator. The stored legacy concert count is CSV compatibility data; it is not a complete reconstructed purchase history.
 
-## Future Improvements
-Add a formal Maven or Gradle build.
-Move generated logs and receipts into an ignored output directory.
-Improve GUI layout and error handling.
-Add end-to-end tests for purchase and reporting workflows.
+Invoice tests include PA4 convenience, service, and charity fees before the membership discount and tax. Percentage rounding uses decimal arithmetic to preserve the existing round-down policy at exact cents. The membership discount remains an unrounded double; this educational billing model is not intended for production payments.
+
+## Data and limitations
+
+The repository owner confirms the customer/account fixtures are synthetic teaching data. Credentials in educational CSV fixtures are plaintext examples; do not use real customer records or passwords. Console/Swing flows, CSV persistence, and cancellation behavior need broader end-to-end validation. Passing unit checks do not establish production readiness.
+
+See source entry points and the assignment requirements in `src` for the original coursework context. No external authentication service or payment processor is connected.
