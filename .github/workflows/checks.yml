@@ -1,0 +1,26 @@
+name: Checks
+on:
+  push:
+    branches: [main]
+  pull_request:
+permissions:
+  contents: read
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6
+        with:
+          persist-credentials: false
+      - uses: actions/setup-java@b6effb05e454b25005698d916606bdc6ffcbf961 # v5
+        with:
+          distribution: temurin
+          java-version: 21
+      - name: Compile and run JUnit tests
+        run: |
+          mkdir -p build
+          javac -cp "lib/*" -d build src/*.java
+          tests=$(find src -maxdepth 1 -name "*Test.java" -printf "%f\n" | sed "s/\.java$//" | sort | tr "\n" " ")
+          test -n "$tests"
+          java -cp "build:lib/*" org.junit.runner.JUnitCore $tests
