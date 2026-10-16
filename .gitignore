@@ -11,3 +11,7 @@ Thumbs.db
 ActionLog.txt
 *_Receipt.txt
 *_InvoiceSummary.txt
+
+# Local build and regression outputs
+build/
+*.class
