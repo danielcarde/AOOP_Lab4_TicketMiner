@@ -17,7 +17,7 @@ public class TicketMinerAdministrator {
      * Administrator login method - Taken from teamgd
      */
     public static void administratorLogin() {
-        Logger.getInstance().logAction("Administrator Logged In.");
+        Logger.log("Administrator Logged In.");
 
         Scanner input = new Scanner(System.in);
 
@@ -46,7 +46,7 @@ public class TicketMinerAdministrator {
                     System.out.println();
             }
         }
-        Logger.getInstance().logAction("Administrator Logged Out.");
+        Logger.log("Administrator Logged Out.");
     }
 
     /**
@@ -66,19 +66,19 @@ public class TicketMinerAdministrator {
             switch (choice) {
                 case "1":
                     UserInterface.clearScreen();
-                    Logger.getInstance().logAction("Administrator Inquiring Sport Events.");
+                    Logger.log("Administrator Inquiring Sport Events.");
                     eventChosen = "Sport";
                     eventChosenAdmin(eventChosen);
                     break;
                 case "2":
                     UserInterface.clearScreen();
-                    Logger.getInstance().logAction("Administrator Inquiring Concert Events.");
+                    Logger.log("Administrator Inquiring Concert Events.");
                     eventChosen = "Concert";
                     eventChosenAdmin(eventChosen);
                     break;
                 case "3":
                     UserInterface.clearScreen();
-                    Logger.getInstance().logAction("Administrator Inquiring Festival Events.");
+                    Logger.log("Administrator Inquiring Festival Events.");
                     eventChosen = "Festival";
                     eventChosenAdmin(eventChosen);
                     break;
@@ -108,12 +108,12 @@ public class TicketMinerAdministrator {
             switch (choice.toLowerCase()) {
                 case "1":
                     inquireEvent(eventType);
-                    Logger.getInstance().logAction("Administrator Inquiring Events by ID");
+                    Logger.log("Administrator Inquiring Events by ID");
                     searchByID(eventType);
                     break;
                 case "2":
                     inquireEvent(eventType);
-                    Logger.getInstance().logAction("Administrator Inquiring Events by NAME");
+                    Logger.log("Administrator Inquiring Events by NAME");
                     searchByName(eventType);
                     break;
                 case "exit":
@@ -151,7 +151,7 @@ public class TicketMinerAdministrator {
                         System.out.println("Something Broke.");
                         return;
                     }
-                    Logger.getInstance().logAction("Administrator Viewing ID's and Names");
+                    Logger.log("Administrator Viewing ID's and Names");
                     correctInput = true;
                     break;
                 case "n":
@@ -213,7 +213,7 @@ public class TicketMinerAdministrator {
                 continue;
             }
 
-            Logger.getInstance().logAction("Administrator Inquiring " + eventType + " Event " + idInputInt);
+            Logger.log("Administrator Inquiring " + eventType + " Event " + idInputInt);
             // Note: This expects Event.inquireEventDetails() method which may not exist
             // chosenEvent.inquireEventDetails(eventType);
             System.out.println("Note: inquireEventDetails() may need to be implemented");
@@ -260,7 +260,7 @@ public class TicketMinerAdministrator {
                 continue;
             }
 
-            Logger.getInstance().logAction("Administrator Inquiring " + eventType + " Event " + nameInput);
+            Logger.log("Administrator Inquiring " + eventType + " Event " + nameInput);
             // Note: This expects Event.inquireEventDetails() method which may not exist
             // chosenEvent.inquireEventDetails(eventType);
             System.out.println("Note: inquireEventDetails() may need to be implemented");
@@ -488,12 +488,12 @@ public class TicketMinerAdministrator {
             case "1":
                 customerList.writeCustomerLatestReceipt(username);
                 System.out.println("Latest receipt saved as " + username + "_Receipt.txt");
-                Logger.getInstance().logAction("Admin generated latest receipt for " + username);
+                Logger.log("Admin generated latest receipt for " + username);
                 break;
             case "2":
                 customerList.writeCustomerInvoiceSummary(username);
                 System.out.println("Invoice summary saved as " + username + "_InvoiceSummary.txt");
-                Logger.getInstance().logAction("Admin generated invoice summary for " + username);
+                Logger.log("Admin generated invoice summary for " + username);
                 break;
             default:
                 System.out.println("Invalid choice.");

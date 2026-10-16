@@ -27,6 +27,8 @@ public class Customer {
     private String fullName;
     private double balance;
     private double totalSavings;
+    // Historical concert count for the alternative teamgd CSV adapter.
+    private int legacyConcertsPurchased;
     private List<Invoice> invoices = new ArrayList<>();
     
     // Additional fields from Brian Casio
@@ -80,6 +82,16 @@ public class Customer {
         this.password = password;
         this.totalSavings = 0.0;
     }
+
+    /** Compatibility with the original teamgd CSV constructor order. */
+    public Customer(int id, String firstName, String lastName, String username,
+                    String password, double balance, int concertsPurchased, boolean member) {
+        this(id, firstName, lastName, balance, member, username, password);
+        this.legacyConcertsPurchased = concertsPurchased;
+    }
+    public double getSavedMoney() { return getTotalSavings(); }
+    public int getConcertsPurchased() { return legacyConcertsPurchased; }
+    public boolean isTicketMinerMembership() { return hasTicketMinerMembership(); }
 
     // ========== Getters from Miranda Macias ==========
     

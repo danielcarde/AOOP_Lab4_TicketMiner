@@ -265,7 +265,7 @@ public final class EventList {
             allEvents.addAll(sportEvents.values());
             allEvents.addAll(concertEvents.values());
             allEvents.addAll(festivalEvents.values());
-            allEvents.sort(Comparator.comparingInt(Event::getId));
+            allEvents.sort(Comparator.comparing(Event::getId));
 
             for (Event event : allEvents) {
                 // Note: This expects Event.toCSVString() method which may not exist in teammb Event class

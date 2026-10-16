@@ -1,3 +1,5 @@
+import java.math.BigDecimal;
+import java.math.RoundingMode;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
@@ -26,6 +28,12 @@ import java.time.format.DateTimeFormatter;
  * - Discount applied to subtotal (ticket costs + fees)
  */
 public class Invoice {
+    // Decimal arithmetic preserves the existing round-down policy at exact cents.
+    private static double percentageRoundedDown(double amount, String rate) {
+        return BigDecimal.valueOf(amount).multiply(new BigDecimal(rate))
+            .setScale(2, RoundingMode.FLOOR).doubleValue();
+    }
+
     // Core fields from Miranda Macias
     private static int nextId = 1;
     private final String id;
@@ -85,8 +93,8 @@ public class Invoice {
         
         // PA4 Step 2: Calculate fees (BEFORE any discount)
         this.convenienceFee = 2.50;  // Flat $2.50 per transaction
-        this.serviceFee = Math.floor(ticketCosts * 0.005 * 100) / 100.0;  // 0.5% of tickets
-        this.charityFee = Math.floor(ticketCosts * 0.0075 * 100) / 100.0; // 0.75% of tickets
+        this.serviceFee = percentageRoundedDown(ticketCosts, "0.005");  // 0.5% of tickets
+        this.charityFee = percentageRoundedDown(ticketCosts, "0.0075"); // 0.75% of tickets
         this.totalFees = convenienceFee + serviceFee + charityFee;
         
         // PA4 Step 3: Calculate subtotal (ticket costs + fees)
@@ -104,7 +112,7 @@ public class Invoice {
         this.discountedSubtotal = subtotal - memberDiscount;
         
         // PA4 Step 5: Apply Texas sales tax (8.25% on discounted subtotal)
-        this.salesTax = Math.floor(discountedSubtotal * 0.0825 * 100) / 100.0;
+        this.salesTax = percentageRoundedDown(discountedSubtotal, "0.0825");
         
         // PA4 Step 6: Calculate final total
         this.totalPrice = discountedSubtotal + salesTax;
@@ -147,8 +155,8 @@ public class Invoice {
         // PA4: Calculate fees for legacy invoices
         this.ticketCosts = unitPrice * quantity;
         this.convenienceFee = 2.50;
-        this.serviceFee = Math.floor(ticketCosts * 0.005 * 100) / 100.0;
-        this.charityFee = Math.floor(ticketCosts * 0.0075 * 100) / 100.0;
+        this.serviceFee = percentageRoundedDown(ticketCosts, "0.005");
+        this.charityFee = percentageRoundedDown(ticketCosts, "0.0075");
         this.totalFees = convenienceFee + serviceFee + charityFee;
         
         this.subtotal = ticketCosts + totalFees;

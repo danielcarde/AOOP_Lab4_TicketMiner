@@ -48,17 +48,12 @@ public class InvoiceTest {
         // Create invoice for member with GOLD ticket (should get 10% discount)
         Invoice invoice = new Invoice(memberCustomer, testEvent, TicketType.GOLD, 2);
         
-        // Subtotal: 75.0 * 2 = 150.0
-        // Member discount (10%): 150.0 * 0.10 = 15.0
-        // Discounted subtotal: 150.0 - 15.0 = 135.0
-        // Tax (8.25%): 135.0 * 0.0825 = 11.1375 (rounded down to 11.13)
-        // Total: 135.0 + 11.13 = 146.13
-        
-        assertEquals(150.0, invoice.getSubtotal(), 0.01);
-        assertEquals(15.0, invoice.getMemberDiscount(), 0.01);
-        assertEquals(135.0, invoice.getDiscountedSubtotal(), 0.01);
+        // PA4: include convenience, service and charity fees before discount and tax.
+        assertEquals(154.37, invoice.getSubtotal(), 0.001);
+        assertEquals(15.437, invoice.getMemberDiscount(), 0.001);
+        assertEquals(138.933, invoice.getDiscountedSubtotal(), 0.001);
         assertTrue(invoice.hadMemberDiscount());
-        assertEquals(146.13, invoice.getTotalPrice(), 0.01);
+        assertEquals(150.393, invoice.getTotalPrice(), 0.001);
     }
     
     /**
@@ -70,16 +65,11 @@ public class InvoiceTest {
         // Create invoice for member with VIP ticket (should NOT get discount)
         Invoice invoice = new Invoice(memberCustomer, testEvent, TicketType.VIP, 1);
         
-        // Subtotal: 100.0 * 1 = 100.0
-        // Member discount: 0.0 (VIP excluded)
-        // Discounted subtotal: 100.0
-        // Tax (8.25%): 100.0 * 0.0825 = 8.25
-        // Total: 100.0 + 8.25 = 108.25
-        
-        assertEquals(100.0, invoice.getSubtotal(), 0.01);
+        // PA4: include convenience, service and charity fees before discount and tax.
+        assertEquals(103.75, invoice.getSubtotal(), 0.001);
         assertEquals(0.0, invoice.getMemberDiscount(), 0.01);
         assertFalse(invoice.hadMemberDiscount());
-        assertEquals(108.25, invoice.getTotalPrice(), 0.01);
+        assertEquals(112.30, invoice.getTotalPrice(), 0.001);
     }
     
     /**
@@ -91,16 +81,11 @@ public class InvoiceTest {
         // Create invoice for non-member (should get no discount)
         Invoice invoice = new Invoice(nonMemberCustomer, testEvent, TicketType.SILVER, 3);
         
-        // Subtotal: 50.0 * 3 = 150.0
-        // Member discount: 0.0
-        // Discounted subtotal: 150.0
-        // Tax (8.25%): 150.0 * 0.0825 = 12.375 (rounded down to 12.37)
-        // Total: 150.0 + 12.37 = 162.37
-        
-        assertEquals(150.0, invoice.getSubtotal(), 0.01);
+        // PA4: include convenience, service and charity fees before discount and tax.
+        assertEquals(154.37, invoice.getSubtotal(), 0.001);
         assertEquals(0.0, invoice.getMemberDiscount(), 0.01);
         assertFalse(invoice.hadMemberDiscount());
-        assertEquals(162.37, invoice.getTotalPrice(), 0.01);
+        assertEquals(167.10, invoice.getTotalPrice(), 0.001);
     }
     
     /**
@@ -110,13 +95,12 @@ public class InvoiceTest {
     public void testSalesTaxCalculation() {
         Invoice invoice = new Invoice(nonMemberCustomer, testEvent, TicketType.BRONZE, 4);
         
-        // Subtotal: 30.0 * 4 = 120.0
-        // Tax (8.25%): 120.0 * 0.0825 = 9.90
-        // Total: 120.0 + 9.90 = 129.90
-        
-        assertEquals(120.0, invoice.getSubtotal(), 0.01);
-        assertEquals(9.90, invoice.getSalesTax(), 0.01);
-        assertEquals(129.90, invoice.getTotalPrice(), 0.01);
+        // PA4: include convenience, service and charity fees before discount and tax.
+        assertEquals(124.0, invoice.getSubtotal(), 0.001);
+        assertEquals(0.90, invoice.getCharityFee(), 0.001);
+        assertEquals(4.00, invoice.getTotalFees(), 0.001);
+        assertEquals(10.23, invoice.getSalesTax(), 0.001);
+        assertEquals(134.23, invoice.getTotalPrice(), 0.001);
     }
 }
 
